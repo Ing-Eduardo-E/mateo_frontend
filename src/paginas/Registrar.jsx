@@ -39,7 +39,7 @@ const Registrar = () => {
     try {
       await clienteAxios.post("/veterinarios", { nombre, email, password });
       setAlerta({
-        msg: "Creado Correctamente, revisa tu email",
+        msg: "Creado Correctamente, revisa tu email!!!",
         error: false,
       });
     } catch (error) {
